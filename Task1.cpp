@@ -2,10 +2,10 @@
 using namespace std;
 
 template <typename T>
-void swapValues(T &q7, T &r9) {
-    T zx = q7;
-    q7 = r9;
-    r9 = zx;
+void swapValues(T &r1, T &r2) {
+    T x = r1;
+    r1 = r2;
+    r2 = x;
 }
 
 int main() {
