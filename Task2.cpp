@@ -2,10 +2,10 @@
 #include <stdexcept>
 using namespace std;
 
-int bxDiv(int wq, int ry) {
-    if (ry == 0)
+int bxDiv(int upper, int below) {
+    if (below == 0)
         throw runtime_error("Division by zero is not allowed!");
-    return wq / ry;
+    return upper / below;
 }
 
 int main() {
